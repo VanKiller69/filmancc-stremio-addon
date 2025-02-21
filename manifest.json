@@ -1,0 +1,35 @@
+{
+  "id": "com.filmancc.stremio",
+  "version": "1.0.0",
+  "name": "Filman.cc Add-on",
+  "description": "Streams movies from Filman.cc directly in Stremio.",
+  "resources": [
+    "stream",
+    "catalog"
+  ],
+  "types": [
+    "movie"
+  ],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "filmancc_catalog",
+      "name": "Filman.cc Movies",
+      "extra": [
+        {
+          "name": "search",
+          "isRequired": false
+        },
+        {
+          "name": "genre",
+          "isRequired": false
+        }
+      ]
+    }
+  ],
+  "idPrefixes": [
+    "tt"
+  ],
+  "icon": "https://www.filman.cc/favicon.ico",
+  "background": "https://www.filman.cc/background.jpg"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "filmancc-stremio-addon",
+  "version": "1.0.0",
+  "description": "A Stremio add-on to stream movies from Filman.cc.",
+  "main": "addon.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Van",
+  "license": "MIT",
+  "dependencies": {
+    "stremio-addon-sdk": "^1.6.3",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1"
+  }
+}
